@@ -63,12 +63,12 @@
 //* @param {Array|Object|string} collection The collection to search.
 //* @param {Object} source The object of property values to match.
 //* @returns {*} Returns the matched element, else `undefined`.
-//14.flodl 同 reduce inject
+//14.flodl 同 reduce inject 累计
 //15.flodr 同 reduceRight
 
 //16. pluck提取
 //17. sample 随机
-//18.partition
+//18.partition 划分按条件分组
 
 //19.shuffle 搅乱
 
