@@ -56,7 +56,7 @@
 //*. string    如果参数predicate是一个属性名（string类型）的话，则返回值将会是此次遍历此属性的value。然后根据value进行drop。
 //并且如果参数3 thisArg也有值的话，则会比较thisArg和predicate的返回值的不同。根据比较的值来进行drop。
 //*. object  此种情况下。如果array中的某一项的属性和object中的属性一致，则返回true,否则就返回false.
-//    在测试的过程中，发现一个奇怪的例子：
+//    在测试的过程中，发现一个奇怪的例子： 21
 //var obj=[{‘a‘:0,‘b‘:‘sa‘},{‘a‘:2,‘b‘:‘sadff‘},{‘a‘:3,‘b‘:21}]; 
 // _.pluck(_.dropRightWhile(obj,‘a‘,0),‘a‘);   →[0, 2, 3]
 //7. dropWhile  数组元素过滤
